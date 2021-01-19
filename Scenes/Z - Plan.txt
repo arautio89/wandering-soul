@@ -1,0 +1,42 @@
+
+Scenes
+======
+Start Menu / Main Menu
+Options?
+Game
+Intro
+
+Game Scene
+==========
+Batch
+.my_batch
+.tiles_group
+.cre_group
+
+Model / Level
+-------------
+.tiles
+.creatures
+.items (includes traps on ground?)
+.stains??? (included in tiles?)
+
+Level
+=====
+
+Tile
+====
+.occupant
+
+~~~~~
+
+solid <-> spirit
+water <-> swims, flying
+slippery <-> icewalk
+pass_small <-> small
+electricity <-> spirit==False
+
+~~
+
+Another way to implement tiles~creatures:
+Only creature properties / tile properties?
+
